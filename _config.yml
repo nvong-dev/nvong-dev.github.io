@@ -1,0 +1,9 @@
+title: nvong-dev
+description: Applications Android
+lang: fr
+theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
