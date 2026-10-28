@@ -122,4 +122,4 @@ Quand cette politique change, la date en haut de la page change aussi, et les ch
 
 ## Contact
 
-Une question sur cette politique ? Écris à l'adresse de contact indiquée sur la fiche Google Play de Reforge.
+Une question sur cette politique ? Écris à [nvong.dev@gmail.com](mailto:nvong.dev@gmail.com).
