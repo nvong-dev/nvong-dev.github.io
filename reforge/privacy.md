@@ -6,13 +6,14 @@ lang: fr
 
 # Politique de confidentialité de Reforge
 
-*Dernière mise à jour : 28 octobre 2026.* · [English version](../en/privacy/)
+*Dernière mise à jour : 29 octobre 2026.* · [English version](../en/privacy/)
 
 Reforge est une application Android de coaching de musculation. Cette page dit ce qu'elle enregistre, ce qui peut sortir de ton téléphone, vers qui, et comment tu gardes la main.
 
 ## En bref
 
-- **Pas de compte, pas de serveur de Reforge.** L'éditeur ne reçoit, ne stocke et ne revend aucune de tes données.
+- **Pas de compte, pas de serveur de Reforge.** L'éditeur ne reçoit, ne stocke et ne revend aucune de tes données, à part les informations de commande que Google Play donne à tout vendeur quand tu t'abonnes.
+- **L'abonnement passe par Google Play** : le paiement, le renouvellement et l'annulation se font chez Google, et Reforge ne voit jamais ton moyen de paiement. Voir « Abonnement ».
 - **Pas de publicité, pas de mesure d'audience, pas de pistage** par Reforge.
 - **Tout reste sur ton téléphone** : ton profil, tes séances, ton poids, tes repas, ta conversation avec le coach et tes réglages.
 - **Quatre choses peuvent en sortir** : les illustrations d'exercices téléchargées, ce que tu envoies à l'IA du coach quand elle passe par le cloud, c'est-à-dire si tu l'as activée sur un téléphone qui ne peut pas faire tourner Gemini Nano (messages, repas à estimer, photos de repas, et un résumé de ton profil, de ta santé et de ton entraînement), le code-barres d'un produit que tu cherches dans Open Food Facts, et ce que tu décides d'échanger avec Health Connect. Chacune est détaillée plus bas, et aucune n'est active sans toi.
@@ -24,7 +25,7 @@ Reforge est une application Android de coaching de musculation. Cette page dit c
 - Ton programme, tes exercices personnels, tes séances et chaque série réalisée (charge, répétitions, effort ressenti).
 - Tes pesées et ta masse grasse, saisies ou importées de Health Connect.
 - Tes mensurations (tour de taille, hanches, bras…), si tu en saisis : elles restent sur ton téléphone et dans tes sauvegardes, et ne sont pas envoyées à l'IA.
-- Tes photos de progression, si tu en prends ou en choisis : elles restent dans l'espace privé de l'application et ne vont nulle part ailleurs, ni à l'IA, ni dans l'export, ni dans la sauvegarde automatique, ni dans la sauvegarde cloud d'Android. Seul un transfert direct vers un nouveau téléphone (Android 12 et plus, par câble ou Wi-Fi) les copie. « Enregistrer une copie » écrit la photo à l'endroit que tu choisis dans le sélecteur d'Android ; une photo supprimée dans Reforge est effacée du téléphone.
+- Tes photos de progression, si tu en prends ou en choisis : elles restent dans l'espace privé de l'application et ne vont nulle part ailleurs, ni à l'IA, ni dans l'export, ni dans la sauvegarde automatique, ni dans la sauvegarde cloud d'Android. Seul un transfert direct vers un nouveau téléphone (Android 12 et plus, par câble ou Wi-Fi) les copie. « Enregistrer une copie » écrit la photo à l'endroit que tu choisis dans le sélecteur d'Android, et « Enregistrer mes photos », sur l'écran d'abonnement, les copie toutes dans le dossier que tu choisis ; une photo supprimée dans Reforge est effacée du téléphone.
 - Tes repas (heure, description, aliments et leurs apports estimés), tes repas favoris et tes réglages de nutrition, dont ton régime alimentaire, tes allergies et les aliments que tu évites s'ils sont renseignés : ce sont des données de santé, que tu choisis de saisir (ou non), qui restent sur ton téléphone et dans tes sauvegardes. Les photos de repas ne sont pas gardées : celle prise avec l'appareil photo de Reforge (ou avec l'application d'appareil photo du téléphone, si celui de Reforge ne peut pas s'ouvrir) est écrite dans le cache de l'application, puis effacée dès que Reforge l'a lue.
 - La conversation avec le coach, que tu peux effacer avec « Nouvelle conversation ».
 - Tes réglages (thème, unités, minuteur de repos, rappels d'entraînement, IA activée ou non, opacité et couleurs de chaque widget) et tes habitudes de repos.
@@ -36,6 +37,14 @@ Ces données sont dans l'espace privé de l'application : les autres application
 Si tu ajoutes un widget de Reforge à ton écran d'accueil, il y affiche une partie de ces données : ton poids et ta masse grasse du dernier mois (« Poids et masse grasse »), tes apports du jour face à tes objectifs (« Apports du jour »), ou tes séances de la semaine et celle du jour (« Ma semaine »). Le widget est dessiné par ton téléphone et rien n'est envoyé à personne, mais toute personne qui voit ton écran d'accueil voit aussi ce qu'il affiche. Aucun widget n'est ajouté sans toi, et le retirer de l'écran d'accueil suffit pour ne plus rien montrer.
 
 ## Ce qui peut sortir de ton téléphone
+
+### Abonnement
+
+Le premier lancement, jusqu'à la création de ton programme, est libre. Ensuite, Reforge s'ouvre avec un abonnement mensuel ou annuel vendu par Google Play, avec un essai gratuit la première fois. Le paiement, la facturation, le renouvellement, l'annulation et le remboursement passent par Google Play, selon les conditions et la politique de confidentialité de Google : Reforge ne voit ni ton moyen de paiement, ni ton compte Google.
+
+- **Sur ton téléphone**, Reforge demande à Google Play si un abonnement est en cours (au lancement, et quand tu reviens dans l'application), et garde la date de la dernière réponse positive, ou le fait que la dernière réponse était « pas d'abonnement ». Cela lui permet de s'ouvrir pendant 3 jours si Google Play ne peut pas répondre, et de ne plus envoyer de rappels d'entraînement une fois l'abonnement terminé. Cette information reste sur le téléphone, hors des sauvegardes.
+- **Chez l'éditeur**, comme pour toute vente sur Google Play, la console Google Play montre les commandes (numéro, offre, prix, taxes, pays, historique), pour pouvoir les rembourser ou les annuler si tu le demandes. L'éditeur ne reçoit jamais tes informations de paiement.
+- **Sans abonnement**, l'écran d'abonnement garde « Exporter mes données » et « Enregistrer mes photos » : tes données restent à toi.
 
 ### Illustrations des exercices
 
@@ -63,10 +72,11 @@ C'est facultatif et désactivé par défaut : au premier lancement, une fois ton
 
 ### Informations techniques envoyées à Google
 
-Reforge s'appuie sur deux bibliothèques de Google qui peuvent envoyer à Google des informations techniques, sans rapport avec ce que tu saisis dans l'application :
+Reforge s'appuie sur trois bibliothèques de Google qui peuvent envoyer à Google des informations techniques, sans rapport avec ce que tu saisis dans l'application :
 
 - **ML Kit**, pour Gemini Nano sur le téléphone : des mesures de fonctionnement et de performance, avec des informations sur l'appareil et sur l'application (version de l'application, modèle du téléphone, version d'Android). Elles peuvent partir dès que l'application demande à ton téléphone si Gemini Nano est disponible, donc à chaque lancement, même si l'IA est éteinte.
 - **Firebase**, seulement si tu utilises le cloud de Reforge : des informations sur l'application (sa version, celle de la bibliothèque, son identifiant Firebase) et un jeton d'attestation Play Integrity (Firebase App Check) qui permet à Google de vérifier que la requête vient de l'application officielle.
+- **Google Play Billing**, pour l'abonnement : des informations sur son propre fonctionnement (appels réussis ou échoués, connexion au service de Google Play).
 
 Ces informations servent à faire fonctionner, diagnostiquer et protéger ces services de Google. Reforge n'en reçoit aucune et ne peut pas les consulter. Le détail est dans la documentation de Google sur [ML Kit](https://developers.google.com/ml-kit/android-data-disclosure) et sur [Firebase](https://firebase.google.com/docs/android/play-data-disclosure).
 
@@ -77,7 +87,7 @@ Si tu signales une réponse de l'IA, Reforge prépare un message (la réponse si
 ### Sauvegardes et exports
 
 - Si la sauvegarde Android est activée sur ton téléphone, Android peut sauvegarder les données de Reforge (base de données et réglages) dans ton compte Google, selon tes paramètres Android.
-- « Exporter mes données » crée un fichier JSON que tu enregistres où tu veux : Reforge n'en garde aucune copie.
+- « Exporter mes données » (dans les réglages, et sur l'écran d'abonnement) crée un fichier JSON que tu enregistres où tu veux : Reforge n'en garde aucune copie.
 - « Sauvegarde automatique » est éteinte tant que tu n'as pas choisi un dossier dans le sélecteur d'Android (sur le téléphone, une carte mémoire, ou un cloud dont l'application le propose). Reforge y écrit alors le même fichier qu'un export, après chaque séance et une fois par jour, et garde les 7 derniers ; il n'a accès qu'à ce dossier, pas au reste du stockage. Si ce dossier est synchronisé avec un cloud, c'est l'application de ce cloud qui y envoie le fichier, pas Reforge. L'arrêter rend l'accès au dossier, et les fichiers déjà écrits y restent.
 
 ## Ce que Reforge ne fait pas
@@ -87,6 +97,7 @@ Reforge n'affiche pas de publicité, ne mesure pas ton usage, ne crée pas de pr
 ## Autorisations Android
 
 - **Internet** : télécharger les illustrations, chercher un produit dans Open Food Facts par son code-barres, et joindre l'IA dans le cloud quand tu l'as activée sur un téléphone qui ne peut pas faire tourner Gemini Nano.
+- **Facturation Google Play** : t'abonner et vérifier ton abonnement, par l'application Google Play du téléphone.
 - **Notifications, vibration, alarmes exactes** : te prévenir à la fin du temps de repos, même écran éteint.
 - **Rappels d'entraînement** (facultatifs, éteints tant que tu ne les actives pas) : une notification les jours où une séance est prévue, faite sur ton téléphone avec ton programme et tes séances, sans rien envoyer à personne. Android te demande l'autorisation des notifications au moment où tu les actives, et la catégorie « Rappels d'entraînement » de ses réglages de notifications te laisse les couper. Reforge remet l'alarme du prochain rappel en place quand le téléphone redémarre (autorisation « Recevoir au démarrage », sans danger : elle ne donne accès à rien).
 - **Health Connect** (écriture des séances et de leur énergie ; lecture du poids, de la masse grasse, des pas, des calories actives et des activités) : facultatif, voir plus haut.
@@ -96,6 +107,7 @@ Reforge n'affiche pas de publicité, ne mesure pas ton usage, ne crée pas de pr
 
 ## Tes choix
 
+- Modifier ou annuler ton abonnement : Réglages › Mon abonnement, ou dans Google Play (Paiements et abonnements). Annulé, il reste actif jusqu'à la fin de la période payée ; annulé pendant l'essai gratuit, il ne coûte rien.
 - Activer ou éteindre l'IA : Réglages › Intelligence artificielle (ou « Activer l'IA » dans le coach).
 - Renseigner, changer ou effacer ton régime et tes allergies : onglet Nutrition ou Réglages › Alimentation › Régime et allergies (« Tout effacer »).
 - Activer, régler ou couper les rappels d'entraînement : Réglages › Rappels d'entraînement, ou la catégorie « Rappels d'entraînement » dans les réglages de notifications d'Android.
@@ -106,7 +118,7 @@ Reforge n'affiche pas de publicité, ne mesure pas ton usage, ne crée pas de pr
 - Ne plus afficher tes données sur l'écran d'accueil : retirer le widget, avec un appui long sur lui.
 - Tout supprimer : désinstaller l'application, ou effacer son stockage dans les réglages Android (Applications › Reforge › Stockage). Les séances écrites dans Health Connect y restent : supprime-les dans Health Connect, ou une à une dans Reforge avant de le désinstaller (supprimer une séance dans Reforge la retire aussi de Health Connect).
 
-Reforge ne détient aucune donnée sur toi en dehors de ton téléphone : il n'y a donc rien à demander à l'éditeur. Pour ce qui est envoyé à Google (IA dans le cloud, quand elle est activée), tes droits s'exercent auprès de Google.
+En dehors des commandes que Google Play lui montre, l'éditeur ne détient aucune donnée sur toi : pour une question sur ton abonnement ou un remboursement, écris-lui ou passe par Google Play. Pour ce qui est envoyé à Google (abonnement, IA dans le cloud quand elle est activée), tes droits s'exercent auprès de Google.
 
 ## Santé
 
